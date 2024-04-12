@@ -1,7 +1,7 @@
-package Main;
+package Proyecto.FACTORY.src.main.java.Main;
 
 import Entities.Enemy;
-import Entities.TypeEnemy;
+import Proyecto.FACTORY.src.main.java.Entities.TypeEnemy;
 
 public class Menu {
 
@@ -16,11 +16,6 @@ public class Menu {
         Enemy enemySelected = FirstWay.getEnemySpecific(TypeEnemy.FUNGU_RED);
         enemySelected.attack();
         enemySelected.fend();
-        
-        // NOW MY CHOICE WAS ANGEL WING 
-        Enemy enemySelected2 = FirstWay.getEnemySpecific(TypeEnemy.ANGELWING_SIVEL);
-        enemySelected2.attack();
-        enemySelected2.fend();
 
     }
 

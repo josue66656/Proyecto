@@ -1,4 +1,4 @@
-package ImplementationsWing;
+package Proyecto.FACTORY.src.main.java.ImplementationsWing;
 
 import Entities.Enemy;
 
