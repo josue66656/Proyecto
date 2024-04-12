@@ -1,13 +1,14 @@
-package Main;
+package Proyecto.FACTORY.src.main.java.Main;
 
-import Entities.Enemy;
-import Entities.TypeEnemy;
-import ImplementacionesFungus.FungusAzul;
-import ImplementacionesFungus.FungusImpRed;
-import ImplementationsWing.AngeWingGold;
-import ImplementationsWing.AngelWingSilver;
 import java.util.HashMap;
 import java.util.Map;
+
+import Entities.Enemy;
+import Proyecto.FACTORY.src.main.java.Entities.TypeEnemy;
+import Proyecto.FACTORY.src.main.java.ImplementacionesFungus.FungusAzul;
+import Proyecto.FACTORY.src.main.java.ImplementacionesFungus.FungusImpRed;
+import Proyecto.FACTORY.src.main.java.ImplementationsWing.AngeWingGold;
+import Proyecto.FACTORY.src.main.java.ImplementationsWing.AngelWingSilver;
 
 // THIS IS THE FACTORY THE ONE WHO PROVIDES ME WITH PRODUCTS ONLY WITH MY CHOICE
 public class MainFactory {
@@ -18,8 +19,7 @@ public class MainFactory {
     TypeEnemy j = TypeEnemy.ANGELWING_GOLD;
     private final static Map<TypeEnemy, Enemy> AvailableEnemys= new HashMap<>() {
         {
-            put(TypeEnemy.ANGELWING_GOLD, new AngeWingGold());
-            put(TypeEnemy.ANGELWING_SIVEL, new AngelWingSilver());
+            
             put(TypeEnemy.FUNGU_AZUL, new FungusAzul());
             put(TypeEnemy.FUNGU_RED, new FungusImpRed());
         }

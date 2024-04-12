@@ -1,4 +1,4 @@
-package ImplementacionesFungus;
+package Proyecto.FACTORY.src.main.java.ImplementacionesFungus;
 import Entities.Enemy;
 public class FungusImpRed implements Enemy{
 
