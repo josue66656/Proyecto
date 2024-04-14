@@ -16,6 +16,9 @@ public class Menu {
         Enemy enemySelected = FirstWay.getEnemySpecific(TypeEnemy.FUNGU_RED);
         enemySelected.attack();
         enemySelected.fend();
+        System.out.println("MODIFYCACION PROBLEM");
+        enemySelected.attack();
+        enemySelected.fend();
 
     }
 
