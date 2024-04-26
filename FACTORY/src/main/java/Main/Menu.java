@@ -1,7 +1,8 @@
-package Proyecto.FACTORY.src.main.java.Main;
+package Main;
 
-import Entities.Enemy;
-import Proyecto.FACTORY.src.main.java.Entities.TypeEnemy;
+import Entities.TypeEnemy;
+import ImplementacionesFungus.Enemy;
+import Proyecto.FACTORY.src.main.java.Main.MainFactory;
 
 public class Menu {
 
@@ -13,7 +14,7 @@ public class Menu {
         
         // I just need to get any enemy child of the same interface and each one knows what to do (POLIMORFISM)
         // MY CHOICE WAS FUNG RED
-        Enemy enemySelected = FirstWay.getEnemySpecific(TypeEnemy.FUNGU_RED);
+        Enemy enemySelected = FirstWay.getEnemySpecific(TypeEnemy.ICE);
         enemySelected.attack();
         enemySelected.fend();
         System.out.println("MODIFYCACION PROBLEM");
