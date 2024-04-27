@@ -8,6 +8,8 @@ public class AngeWingGold implements Enemy{
     @Override
     public void attack() {
         System.out.println("Fly " + 123);
+        int a = 10;
+        System.out.println("Fly CHCOC " + a);
     }
 
     @Override
