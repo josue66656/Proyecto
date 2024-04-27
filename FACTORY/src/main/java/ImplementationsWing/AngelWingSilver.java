@@ -1,14 +1,14 @@
-package Proyecto.FACTORY.src.main.java.ImplementationsWing;
+package ImplementationsWing;
 import Entities.Enemy;
 public class AngelWingSilver implements Enemy{
 
     @Override
     public void attack() {
-        System.out.println("Fly and Hit Gold");
+        System.out.println("ATTACK GOLD");
     }
 
     @Override
     public void fend() {
-        System.out.println("Throw pieces of wings Gold");
+        System.out.println("FEND GOLD");
     }
 }

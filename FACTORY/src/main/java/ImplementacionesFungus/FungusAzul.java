@@ -6,12 +6,12 @@ public class FungusAzul implements Enemy{
 
     @Override
     public void attack() {
-        System.out.println("Fungus attack Blue");
+        System.out.println(" ATTACK AZUL");
     }
 
     @Override
     public void fend() {
-        System.out.println(" fend fungu Blue");
+        System.out.println(" FEND AZUL");
     }
     
 }
