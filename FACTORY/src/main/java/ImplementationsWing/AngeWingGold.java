@@ -14,7 +14,7 @@ public class AngeWingGold implements Enemy{
     @Override
     public void fend() {
         int v = 93;
-        System.out.println("Log Main Lap" + 93);
+        System.out.println("MAIN LOP" + 93);
     }
     
 }
