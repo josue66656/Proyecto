@@ -15,12 +15,19 @@ public class Menu {
         // I just need to get any enemy child of the same interface and each one knows what to do (POLIMORFISM)
         // MY CHOICE WAS FUNG RED
         Enemy enemySelected = FirstWay.getEnemySpecific(TypeEnemy.BABY);
-        enemySelected.attack();
-        enemySelected.fend();
-        enemySelected.fend();
-        enemySelected.attack();
         System.out.println("MODIFYCACION PROBLEM");
         enemySelected.attack();
+        enemySelected.fend();
+        enemySelected.fend();
+        enemySelected.fend();
+        enemySelected.fend();
+        enemySelected.fend();
+        enemySelected.fend();
+        enemySelected.fend();
+        enemySelected.fend();
+        enemySelected.fend();
+        enemySelected.fend();
+        enemySelected.fend();
         enemySelected.fend();
 
     }
