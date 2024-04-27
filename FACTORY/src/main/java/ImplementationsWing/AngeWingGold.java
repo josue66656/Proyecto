@@ -7,13 +7,13 @@ public class AngeWingGold implements Enemy{
     // This class is the product result of each identity interface
     @Override
     public void attack() {
+        System.out.println("Fly " + 123);
         int a = 10;
         System.out.println("Fly CHCOC " + a);
     }
 
     @Override
     public void fend() {
-        int v = 93;
         System.out.println("MAIN LOP" + 93);
     }
     
