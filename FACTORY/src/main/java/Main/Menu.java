@@ -10,12 +10,18 @@ public class Menu {
 
         MainFactory FirstWay = new MainFactory();
         
-        // I just need to get any enemy child of the same interface and each one knows what to do (POLIMORFISM)
-        // MY CHOICE WAS FUNG RED
-        Enemy enemySelected = FirstWay.getEnemySpecific(TypeEnemy.BABY);
+         int j = 892;
+         int s = 892;
+         int s3 = 892;
+         int jd = 892;
+         int jf = 892;
+         int jg = 892;
+         int jgg = 892;
+         int jc = 892;
+         int jv = 892;
     
     }
 
     }
 
-}
+    }
