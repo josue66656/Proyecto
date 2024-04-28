@@ -4,24 +4,15 @@ public class AngelWingSilver implements Enemy{
 
     @Override
     public void attack() {
+        int hk = 233;
         System.out.println("ATTACK GOLD");
-        System.out.println("nc");
-        System.out.println("nc");
-        System.out.println("nc");
-        System.out.println("nc");
-        System.out.println("nc");
-        System.out.println("nc");
+        int c= 23;
     }
 
     @Override
     public void fend() {
+        int b = 83;
         System.out.println("FEND GOLD");
-        System.out.println("hdhd");
-        System.out.println("hdhd");
-        System.out.println("hdhd");
-        System.out.println("hdhd");
-        System.out.println("hdhd");
-        System.out.println("hdhd");
-        System.out.println("hdhd");
+        int a =893;
     }
 }
