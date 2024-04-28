@@ -10,18 +10,17 @@ public class Menu {
 
         MainFactory FirstWay = new MainFactory();
         
-         int j = 892;
-         int s = 892;
-         int s3 = 892;
-         int jd = 892;
-         int jf = 892;
-         int jg = 892;
-         int jgg = 892;
-         int jc = 892;
-         int jv = 892;
-    
-    }
-
+        System.out.println("-------------------");
+         int j = 2;
+         int s = 3;
+         int s3 = 4;
+         int jd = 8;
+         int jf = 1;
+         int jg = 4;
+         int jgg = 3;
+         int jc = 94;
+         int jv = 93;
+        System.out.println(" NEDJKWEH");
     }
 
     }
